@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.helix.atyourservice.MainActivity"
+    android:background="@drawable/back2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp">
+
+            <RelativeLayout
+                android:id="@+id/buttonPane1"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                android:orientation="vertical"
+                android:layout_marginBottom="5dp"
+                android:layout_alignParentStart="true">
+
+                <ImageButton
+                    android:id="@+id/hostel"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:src="@drawable/hostel" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hostel"
+                    android:layout_centerHorizontal="true"
+                    android:textAllCaps="true"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_below="@id/hostel"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/buttonPane2"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                android:orientation="vertical"
+                android:layout_marginBottom="5dp"
+                android:layout_alignParentEnd="true">
+
+                <ImageButton
+                    android:id="@+id/bookImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/book" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/bookImage"
+                    android:layout_centerInParent="true"
+                    android:text="Books"
+                    android:textAllCaps="true"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/buttonPane3"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                android:orientation="vertical"
+                android:layout_below="@id/buttonPane1"
+                android:layout_marginBottom="5dp"
+                android:layout_alignParentStart="true">
+
+
+                <ImageButton
+                    android:id="@+id/foodImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/food" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/foodImage"
+                    android:layout_centerInParent="true"
+                    android:text="Food"
+                    android:textAllCaps="true"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/buttonPane4"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                android:layout_below="@id/buttonPane2"
+                android:layout_marginBottom="5dp"
+                android:orientation="vertical"
+                android:layout_alignParentEnd="true"
+                >
+
+                <ImageButton
+                    android:id="@+id/laundryImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/laund"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/laundryImage"
+                    android:text="Laundry"
+                    android:layout_centerHorizontal="true"
+                    android:textAllCaps="true"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/buttonPane5"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                android:layout_below="@id/buttonPane3"
+                android:layout_marginBottom="5dp"
+                android:orientation="vertical"
+                android:layout_alignParentStart="true">
+
+                <ImageButton
+                    android:id="@+id/elecImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/elec" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/elecImage"
+                    android:layout_centerInParent="true"
+                    android:text="Electrician"
+                    android:textAllCaps="true"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/buttonPane6"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                android:layout_below="@id/buttonPane4"
+                android:layout_marginBottom="5dp"
+                android:orientation="vertical"
+                android:layout_alignParentEnd="true">                >
+
+                <ImageButton
+                    android:id="@+id/paintImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/paint"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/paintImage"
+                    android:text="Painter"
+                    android:layout_centerHorizontal="true"
+                    android:textAllCaps="true"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/buttonPane7"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                android:layout_below="@id/buttonPane5"
+                android:layout_marginBottom="5dp"
+                android:orientation="vertical"
+                android:layout_alignParentStart="true">
+
+                <ImageButton
+                    android:id="@+id/MaidImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/maid"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/MaidImage"
+                    android:text="Maid"
+                    android:layout_centerHorizontal="true"
+                    android:textAllCaps="true"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/buttonPane8"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                android:layout_below="@id/buttonPane6"
+                android:layout_marginBottom="5dp"
+                android:orientation="vertical"
+                android:layout_alignParentEnd="true"
+                >
+
+
+                <ImageButton
+                    android:id="@+id/CarpImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/carp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/CarpImage"
+                    android:text="Carpenter"
+                    android:layout_centerHorizontal="true"
+                    android:textAllCaps="true"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+            android:id="@+id/buttonPane9"
+            android:layout_width="165dp"
+            android:layout_height="165dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/buttonPane7"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageButton
+                android:id="@+id/CookImage"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/cook"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/CookImage"
+                android:text="Cook"
+                android:layout_centerHorizontal="true"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/buttonPane10"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                android:orientation="vertical"
+                android:layout_below="@id/buttonPane8"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentEnd="true">
+
+                <ImageButton
+                    android:id="@+id/tutImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/tutor" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="Tutor"
+                    android:textAllCaps="true"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_below="@id/tutImage"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/buttonPane11"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                android:orientation="vertical"
+                android:layout_below="@id/buttonPane9"
+                android:layout_marginBottom="5dp"
+                android:layout_alignParentStart="true">
+
+                <ImageButton
+                    android:id="@+id/plumbImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/plumber" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/plumbImage"
+                    android:text="Plumber"
+                    android:layout_centerHorizontal="true"
+                    android:textAllCaps="true"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/buttonPane12"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                android:orientation="vertical"
+                android:layout_below="@id/buttonPane10"
+                android:layout_marginBottom="5dp"
+                android:layout_alignParentEnd="true">
+
+                <ImageButton
+                    android:id="@+id/BlackImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/BlackImage"
+                    android:layout_centerHorizontal="true"
+                    android:text="BlackSmith"
+                    android:textAllCaps="true"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
